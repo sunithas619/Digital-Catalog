@@ -1,0 +1,109 @@
+
+/*
+.classic-admin-card .card-body p {
+    font-size: 13px;
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+.abc{
+    position: absolute;
+    width: 794px;
+    height: 50px;
+    border-radius: 0px 5px 5px 5px;
+}
+.aaa{
+    position: absolute;
+    left: 10.17%;
+    right: 7.2%;
+    top: 6.9%;
+    bottom: 8.98%;
+    background: #178AE9;
+}
+
+.classic-admin-card .card-body h4 {
+    margin-top: 10px;
+}
+
+.classic-admin-card .card-body .float-right .fa {
+    font-size: 3rem;
+    opacity: 0.5;
+}
+
+.classic-admin-card .progress {
+    margin: 0;
+    opacity: 0.7;
+}
+
+.table-ui {
+    border: 1px solid #e0e0e9;
+}
+
+.blue-gradient {
+    background: -webkit-linear-gradient(50deg, #45cafc, #303f9f);
+    background: linear-gradient(40deg, #45cafc, #4285f4);
+}
+
+.card.card-cascade {
+    .view {
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15), 0 3px 12px 0 rgba(0, 0, 0, 0.15);
+    }
+}*/
+
+.bg {
+    background-color:white;
+}
+
+.fas {
+    color: blue;
+}
+.abc{
+    position: relative;
+    width: 794px;
+    height: 50px;
+    border-radius: 0px 5px 5px 5px;
+}
+
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+    }
+    
+    .active-pink input[type=text] {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+    }
+    
+    .active-purple-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #ce93d8;
+    box-shadow: 0 1px 0 0 #ce93d8;
+    }
+    
+    .active-purple input[type=text] {
+    border-bottom: 1px solid #ce93d8;
+    box-shadow: 0 1px 0 0 #ce93d8;
+    }
+    
+    .active-cyan-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+    }
+    
+    .active-cyan input[type=text] {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+    }
+    
+    .active-cyan .fa,
+    .active-cyan-2 .fa {
+    color: #4dd0e1;
+    }
+    
+    .active-purple .fa,
+    .active-purple-2 .fa {
+    color: #ce93d8;
+    }
+    
+    .active-pink .fa,
+    .active-pink-2 .fa {
+    color: #f48fb1;
+    }
