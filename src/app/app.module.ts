@@ -16,12 +16,19 @@ import { Dashboard1Component } from './views/dashboards/dashboard1/dashboard1.co
 
 // main layout
 import { NavigationModule } from './main-layout/navigation/navigation.module';
+import { MainNavigationComponent } from './main-layout/main-navigation/main-navigation.component';
 
 const routes: Route[] = [
   { path: '', pathMatch: 'full', redirectTo: 'dashboards/v1' },
   { path: 'dashboards', children:
     [
       { path: 'v1', component: Dashboard1Component },
+    ]
+  },
+  {
+    path: 'mainnav', children:
+    [
+      { path: 'v1', component: MainNavigationComponent },
     ]
   },
   { path: 'profiles', children:
@@ -32,11 +39,14 @@ const routes: Route[] = [
   
   { path: '**', component: NotFoundComponent },
 
+  
+
 ];
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainNavigationComponent
   ],
   imports: [
     AgmCoreModule.forRoot({

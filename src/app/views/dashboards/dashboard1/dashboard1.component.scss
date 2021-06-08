@@ -49,8 +49,9 @@
     }
 }*/
 
+/*
 .bg {
-    background-color:white;
+    background-color:rgb(26, 22, 22);
 }
 
 .fas {
@@ -95,7 +96,7 @@
     
     .active-cyan .fa,
     .active-cyan-2 .fa {
-    color: #4dd0e1;
+    color: #19545c;
     }
     
     .active-purple .fa,
@@ -107,3 +108,76 @@
     .active-pink-2 .fa {
     color: #f48fb1;
     }
+
+.aa{
+    position: absolute;
+    width: 794px;
+    height: 50px;
+   
+     background: #FFFFFF;
+    border-radius: 0px 5px 5px 5px;
+    
+}
+
+    .navbar.second-navbar {
+        
+        margin-top: 60px;
+        background: grey !important;
+        transition: all .5s ease-in-out;
+      }
+      
+      .navbar.second-navbar.top-nav-collapse {
+        margin-top: 45px;
+      }
+
+
+      /* Styles for wrapping the search box 
+
+.main {
+    width: 100%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon 
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}*/
+
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 100%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
